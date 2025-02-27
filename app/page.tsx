@@ -1,10 +1,9 @@
 import Encryption from "@/components/main/Encryption";
-import Projects from "@/components/main/Projects";
 import Footer from "@/components/main/Footer";
 import Hero from "@/components/main/Hero";
 import Skills from "@/components/main/Skills";
 import Experiance from "@/components/main/Experiance";
-import Image from "next/image";
+
 
 export default function Home() {
   return (
