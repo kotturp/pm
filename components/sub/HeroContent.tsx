@@ -39,7 +39,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-cyan-300"
         >
-          I&apos;m a Full Stack Software Engineer with experience in Website, Mobile, and Software development. Check out my projects and skills.
+          I'm a Full Stack Software Engineer with experience in Website, Mobile, and Software development. Check out my projects and skills.
         </motion.p>
 
         {/* ✅ Hire Me Button with Resume Popup */}
