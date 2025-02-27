@@ -27,7 +27,6 @@ const HeroContent = () => {
           className="flex flex-col gap-6 mt-6 text-3xl font-bold text-white max-w-[500px] w-auto h-auto"
         >
           <span>
-            I'm
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-700 to-purple-700">
               {" "} Praneetha Mukkamala {" "}
             </span>
@@ -39,7 +38,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-cyan-300"
         >
-          II&apos;m a Full Stack Software Engineer with experience in Website, Mobile, and Software development. Check out my projects and skills.
+          A Full Stack Software Engineer with experience in Website, Mobile, and Software development. Check out my projects and skills.
         </motion.p>
 
         {/* ✅ Hire Me Button with Resume Popup */}
