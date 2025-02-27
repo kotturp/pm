@@ -8,7 +8,9 @@ import * as THREE from "three";
 import * as random from "maath/random/dist/maath-random.esm";
 
 const StarBackground = (props: any) => {
-  const ref = useRef<THREE.Points | null>(null);
+   // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const ref = useRef<any>(null);
+
 
   const [sphere] = useState(() => {
     const positions = new Float32Array(5000 * 3); // ✅ Fix array size
